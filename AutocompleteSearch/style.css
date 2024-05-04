@@ -1,0 +1,12 @@
+#parent{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+
+#suggestions{
+    border: 1px solid silver;
+    max-height: 150px;
+    overflow: auto;
+}
