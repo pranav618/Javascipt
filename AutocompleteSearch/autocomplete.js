@@ -46,7 +46,6 @@ let autoCompleteLogic=(res, input)=>{
 }
 
 
-
 let debounceHandleSearch = function(apiCall, delay){
     let timer;
     return function(...args){
