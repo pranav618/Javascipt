@@ -40,7 +40,7 @@ let renderInitialImage=(count)=>{
     for(let i=0;i<count;i++){
         let childDiv= document.createElement("img");
         childDiv.src= `https://picsum.photos/200/200?random=${i}`
-        childDiv.loading="lazy";
+        // childDiv.loading="lazy";
         childDiv.alt=count+"renderInitialImage"
         parentDiv.appendChild(childDiv);
     }
